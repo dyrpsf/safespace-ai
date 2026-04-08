@@ -17,7 +17,7 @@ function App() {
     setErrorMsg(null) // Clear old errors
     
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/vibe-check', {
+      const response = await fetch('https://your-backend-name.onrender.com/api/vibe-check', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ location: location, hour_of_day: Number(hour) })
