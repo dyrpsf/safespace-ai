@@ -15,7 +15,7 @@
 * **🛣️ Safe Route Simulation:** Compares direct paths against secure alternatives for proactive decision-making.
 
 ## 💻 Tech Stack
-* **Frontend:** React, Tailwind CSS, Vite
+* **Frontend:** React, Tailwind CSS, Vite, JS
 * **Backend:** Python, FastAPI, Uvicorn
 * **Data:** Geopy (Nominatim), Custom Risk Logic
 
