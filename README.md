@@ -16,7 +16,7 @@
 
 ## 💻 Tech Stack
 * **Frontend:** React, Tailwind CSS, Vite, JS
-* **Backend:** Python, FastAPI, Uvicorn
+* **Backend:** Python, FastAPI, Uvicorn, Vercel
 * **Data:** Geopy (Nominatim), Custom Risk Logic
 
 ## 🤖 AI Disclosure
