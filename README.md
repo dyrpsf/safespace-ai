@@ -2,10 +2,6 @@
 
 **Context-Aware Predictive Safety System** *A VibeHack Hackathon Submission*
 
-## 🚀 Live Links
-* **Live Demo:** [Insert your Vercel URL here]
-* **API Endpoint:** [Insert your Render URL here]
-
 > **Note:** Since we are using a free-tier hosting service (Render), the backend server may take 30-50 seconds to "wake up" for the first request. Subsequent vibe checks will be near-instant!
 
 ## ✨ Features
