@@ -68,7 +68,7 @@ def get_vibe_check(req: VibeCheckRequest):
     else:
         risk_level = "High"
 
-    explanation = f"Calculated risk is {risk_level}."
+    explanation = f"Calculated risk is : {risk_level}."
     if is_night:
         explanation += " It is currently nighttime, which increases risk."
     if low_crowd_factor > 0.6:
