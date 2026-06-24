@@ -50,7 +50,7 @@ def get_vibe_check(req: VibeCheckRequest):
             detail="Error verifying location. Please try again."
         )
 
-    # If it passes the real-world map check, run the AI logic...
+    # If it passes the real-world map check, run the AI logic
     seed_string = f"{clean_location}_{req.hour_of_day}"
     local_random = random.Random(seed_string)
 
