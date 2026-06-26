@@ -136,7 +136,7 @@ function App() {
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent animate-pulse"></div>
                   <div className="relative z-10">
                     <p className="font-semibold text-green-400 flex items-center">
-                      SafeSpace Alternative ✨
+                      SafeSpace Alternative
                     </p>
                     <p className="text-xs text-gray-400">Well-Lit Path • 15 mins</p>
                   </div>
