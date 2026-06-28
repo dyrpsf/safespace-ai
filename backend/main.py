@@ -19,7 +19,6 @@ class VibeCheckRequest(BaseModel):
     hour_of_day: int
 
 # Initialize the OpenStreetMap Geocoder
-# We must give it a unique "user_agent" name so they know who is pinging their free server
 geolocator = Nominatim(user_agent="safespace_ai_hackathon_prototype")
 
 @app.get("/")
