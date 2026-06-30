@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import random
-from geopy.geocoders import Nominatim # 🌍 The new Global Location tool!
+from geopy.geocoders import Nominatim
 
 app = FastAPI(title="SafeSpace AI API")
 
